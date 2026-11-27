@@ -1,0 +1,30 @@
+{
+  "name": "winna-provably-fair",
+  "version": "1.0.0",
+  "description": "Verify Winna Originals game results from a server seed, client seed and nonce.",
+  "license": "MIT",
+  "private": true,
+  "main": "src/index.ts",
+  "keywords": [
+    "provably-fair",
+    "verification",
+    "hmac",
+    "winna"
+  ],
+  "scripts": {
+    "lint": "oxlint src lib",
+    "format": "prettier --write src lib",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@prettier/plugin-oxc": "^0.2.4",
+    "@types/node": "26.6.6",
+    "oxlint": "^1.93.0",
+    "prettier": "3.10.1",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  }
+}
